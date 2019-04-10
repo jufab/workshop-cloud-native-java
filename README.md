@@ -4,10 +4,6 @@ This workshop demonstrates the use of MicroProfile, Docker, Kubernetes and Istio
 * **Part 1** covers the foundational technologies for producing and consuming REST services and handling faults
 * **Part 2** covers the deployment, scaling and updating of microserivces at scale, through Kubernetes and Istio.
 
-This workshop is based off a longer version that can be found here:
-
-https://github.com/gcharters/workshop-cloud-native-java
-
 
 Each workshop part consists of a number of Open Liberty Guides each of which demonstrates a key cloud-native microservice technology. Each Guide is
 designed to be taken independently so if you just want to learn about a specific technology you can just take that guide. If, however, you're goal is to learn about all the technologies, then working through them in the order shown below is recommended.
@@ -51,7 +47,7 @@ To use these guides you need the following pre-requisites:
 If you will be taking the workshop at a location with limited network bandwidth, it is recommended you do the following beforehand in order to populate your local .m2 repo and Docker cache.
 
 ```
-git clone https://github.com/gcharters/workshop-cloud-native-java.git
+git clone https://github.com/jamiecoleman92/workshop-cloud-native-java
 cd workshop-cloud-native-java
 mvn install
 docker build -t prime:mym2 .
@@ -128,3 +124,9 @@ https://openliberty.io/guides/istio-intro.html
 
 If you have feedback or find problems, please raise an issue here:
 https://github.com/OpenLiberty/guide-istio-intro
+
+### Extra Credit
+
+This workshop is based off a longer version that can be found here:
+
+https://github.com/gcharters/workshop-cloud-native-java
